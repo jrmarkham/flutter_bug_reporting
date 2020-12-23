@@ -1,0 +1,25 @@
+name: demo_logging
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  sentry: ^4.0.1
+  sentry_flutter: ^4.0.1
+  flutter_bugsnag: ^0.0.1
+  shake_flutter: ^10.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
